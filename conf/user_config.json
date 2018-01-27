@@ -1,0 +1,28 @@
+{
+  "time":{
+    "start-date": "1987-08-26",
+    "end-date": "9999-12-31"
+  },
+  "input-data-01": {
+    "source": "source_name_01",
+    "hive-db": "hive_db_name",
+    "input-tables": {
+      "table_01": "table_01",
+      "table_02": "table_02"
+    }
+  },
+  "input-data-02": {
+    "source": "source_name_02",
+    "hive-db": "hive_db_name",
+    "input-tables": {
+      "table_01": "table_01",
+      "table_02": "table_02"
+    }
+  },
+  "output-path": {
+    "hdfs": "hdfs://path_to_hdfs:",
+    "model": ["model", "directory"],
+    "model-name": null,
+    "prediction": ["prediction", "directory"]
+  }
+}
